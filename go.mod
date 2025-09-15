@@ -1,4 +1,4 @@
-module github.com/smartcontractkit/smdkg
+module github.com/ankit-misra-CLL/smdkg
 
 go 1.24.5
 
