@@ -4,9 +4,9 @@ import (
 	"crypto/subtle"
 	"fmt"
 
-	"github.com/smartcontractkit/smdkg/utils/codec"
-	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/utils/crypto/xof"
+	"github.com/ankit-misra-CLL/smdkg/utils/codec"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/dkgtypes"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/xof"
 )
 
 // A single Ciphertext instance represents the ciphertexts encrypted for all recipients.

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/utils/codec"
-	"github.com/smartcontractkit/smdkg/utils/crypto/dkg"
-	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/utils/crypto/math"
+	"github.com/ankit-misra-CLL/smdkg/dkgocr/dkgocrtypes"
+	"github.com/ankit-misra-CLL/smdkg/utils/codec"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/dkg"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/dkgtypes"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/math"
 )
 
 // Reads the previous result package from the db if previousInstanceID is provided, otherwise returns nil.

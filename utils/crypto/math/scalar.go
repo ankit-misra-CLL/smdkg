@@ -8,7 +8,7 @@ import (
 	"math/big"
 
 	"filippo.io/bigmod"
-	"github.com/smartcontractkit/smdkg/utils/codec"
+	"github.com/ankit-misra-CLL/smdkg/utils/codec"
 )
 
 // Scalar represents a scalar value in a finite field defined by a modulus.

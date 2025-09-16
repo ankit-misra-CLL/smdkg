@@ -3,10 +3,10 @@ package dkg
 import (
 	"fmt"
 
-	"github.com/smartcontractkit/smdkg/utils/codec"
-	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/utils/crypto/math"
-	"github.com/smartcontractkit/smdkg/utils/crypto/vess"
+	"github.com/ankit-misra-CLL/smdkg/utils/codec"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/dkgtypes"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/math"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/vess"
 )
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

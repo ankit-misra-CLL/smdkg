@@ -1,8 +1,8 @@
 package dkgocr
 
 import (
-	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/utils/ocr/plugin"
+	"github.com/ankit-misra-CLL/smdkg/dkgocr/dkgocrtypes"
+	"github.com/ankit-misra-CLL/smdkg/utils/ocr/plugin"
 )
 
 // Create a new empty instance of dkgocrtypes.ResultPackage.

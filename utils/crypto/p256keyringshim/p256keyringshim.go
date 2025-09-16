@@ -3,8 +3,8 @@ package p256keyringshim
 import (
 	"fmt"
 
-	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
+	"github.com/ankit-misra-CLL/smdkg/dkgocr/dkgocrtypes"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/dkgtypes"
 )
 
 var _ dkgtypes.P256Keyring = &wrappedP256keyring{}

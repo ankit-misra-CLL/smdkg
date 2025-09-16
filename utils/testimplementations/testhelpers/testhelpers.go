@@ -4,10 +4,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/utils/crypto/p256keyringshim"
-	"github.com/smartcontractkit/smdkg/p256keyring"
+	"github.com/ankit-misra-CLL/smdkg/dkgocr/dkgocrtypes"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/dkgtypes"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/p256keyringshim"
+	"github.com/ankit-misra-CLL/smdkg/p256keyring"
 	"github.com/stretchr/testify/require"
 )
 

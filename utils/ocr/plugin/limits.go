@@ -5,11 +5,11 @@ import (
 	"crypto/sha256"
 
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/ocr3_1types"
-	"github.com/smartcontractkit/smdkg/utils/codec"
-	"github.com/smartcontractkit/smdkg/utils/crypto/dkg"
-	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/utils/crypto/math"
-	"github.com/smartcontractkit/smdkg/utils/ocr/plugin/kv"
+	"github.com/ankit-misra-CLL/smdkg/utils/codec"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/dkg"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/dkgtypes"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/math"
+	"github.com/ankit-misra-CLL/smdkg/utils/ocr/plugin/kv"
 )
 
 // The estimator of ocr3_1types.ReportingPluginLimits for a DKG instance

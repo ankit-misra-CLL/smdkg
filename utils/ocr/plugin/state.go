@@ -7,8 +7,8 @@ import (
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/ocr3_1types"
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
 	"github.com/smartcontractkit/libocr/quorumhelper"
-	"github.com/smartcontractkit/smdkg/utils/codec"
-	"github.com/smartcontractkit/smdkg/utils/crypto/dkg"
+	"github.com/ankit-misra-CLL/smdkg/utils/codec"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/dkg"
 )
 
 // Implementation of observation, validateObservation, observationQuorum, stateTransition for each state of the DKG

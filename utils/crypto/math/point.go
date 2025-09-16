@@ -1,6 +1,6 @@
 package math
 
-import "github.com/smartcontractkit/smdkg/utils/codec"
+import "github.com/ankit-misra-CLL/smdkg/utils/codec"
 
 type Point interface {
 	codec.Codec[Point]

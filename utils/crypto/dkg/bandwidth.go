@@ -1,10 +1,10 @@
 package dkg
 
 import (
-	"github.com/smartcontractkit/smdkg/utils/codec"
-	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/utils/crypto/math"
-	"github.com/smartcontractkit/smdkg/utils/crypto/vess"
+	"github.com/ankit-misra-CLL/smdkg/utils/codec"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/dkgtypes"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/math"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/vess"
 )
 
 // BandwidthConfig contains the parameters needed to estimate the bandwidth consumption of DKG operations.

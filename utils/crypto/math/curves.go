@@ -5,7 +5,7 @@ import (
 
 	"filippo.io/edwards25519"
 	"filippo.io/nistec"
-	"github.com/smartcontractkit/smdkg/utils/codec"
+	"github.com/ankit-misra-CLL/smdkg/utils/codec"
 )
 
 var SupportedCurves = []Curve{

@@ -6,8 +6,8 @@ import (
 	"io"
 
 	"filippo.io/nistec"
-	"github.com/smartcontractkit/smdkg/utils/codec"
-	"github.com/smartcontractkit/smdkg/utils/crypto/math"
+	"github.com/ankit-misra-CLL/smdkg/utils/codec"
+	"github.com/ankit-misra-CLL/smdkg/utils/crypto/math"
 )
 
 // Unique identifier for a DKG instance.
