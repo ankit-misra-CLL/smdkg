@@ -8,9 +8,9 @@ import (
 
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/ocr3_1types"
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkg"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/math"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkg"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
+	"github.com/smartcontractkit/smdkg/utils/crypto/math"
 )
 
 // Contains all the in-memory cached state for a DKGPlugin, shouldn't be accessed directly.

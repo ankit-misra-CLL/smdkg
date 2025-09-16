@@ -3,10 +3,10 @@ package vess
 import (
 	"fmt"
 
-	"github.com/smartcontractkit/smdkg/internal/codec"
-	"github.com/smartcontractkit/smdkg/internal/crypto/math"
-	"github.com/smartcontractkit/smdkg/internal/crypto/mre"
-	"github.com/smartcontractkit/smdkg/internal/crypto/xof"
+	"github.com/smartcontractkit/smdkg/utils/codec"
+	"github.com/smartcontractkit/smdkg/utils/crypto/math"
+	"github.com/smartcontractkit/smdkg/utils/crypto/mre"
+	"github.com/smartcontractkit/smdkg/utils/crypto/xof"
 )
 
 // All members that need to be serialized when sending a dealing over the network.

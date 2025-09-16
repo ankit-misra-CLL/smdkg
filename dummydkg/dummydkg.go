@@ -6,13 +6,13 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/codec"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkg"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/math"
-	"github.com/smartcontractkit/smdkg/internal/crypto/p256keyringshim"
-	"github.com/smartcontractkit/smdkg/internal/ocr/plugin"
-	"github.com/smartcontractkit/smdkg/internal/testimplementations/unsaferand"
+	"github.com/smartcontractkit/smdkg/utils/codec"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkg"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
+	"github.com/smartcontractkit/smdkg/utils/crypto/math"
+	"github.com/smartcontractkit/smdkg/utils/crypto/p256keyringshim"
+	"github.com/smartcontractkit/smdkg/utils/ocr/plugin"
+	"github.com/smartcontractkit/smdkg/utils/testimplementations/unsaferand"
 	"github.com/smartcontractkit/smdkg/p256keyring"
 )
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/ocr3_1types"
-	"github.com/smartcontractkit/smdkg/internal/codec"
+	"github.com/smartcontractkit/smdkg/utils/codec"
 )
 
 // Access shim for the key/value store used by the DKG plugin.

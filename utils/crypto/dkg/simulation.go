@@ -1,9 +1,9 @@
 package dkg
 
 import (
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/math"
-	"github.com/smartcontractkit/smdkg/internal/testimplementations/unsaferand"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
+	"github.com/smartcontractkit/smdkg/utils/crypto/math"
+	"github.com/smartcontractkit/smdkg/utils/testimplementations/unsaferand"
 )
 
 // Within this file, a simulated execution of the DKG protocol is implemented. It uses the real cryptographic

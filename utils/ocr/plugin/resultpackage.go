@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkg"
-	"github.com/smartcontractkit/smdkg/internal/crypto/p256keyringshim"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkg"
+	"github.com/smartcontractkit/smdkg/utils/crypto/p256keyringshim"
 )
 
 // ResultPackage implements the dkgocrtypes.ResultPackage interface.

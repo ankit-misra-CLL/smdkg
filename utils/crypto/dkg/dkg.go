@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/smartcontractkit/smdkg/internal/codec"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/math"
-	"github.com/smartcontractkit/smdkg/internal/crypto/vess"
-	"github.com/smartcontractkit/smdkg/internal/crypto/xof"
+	"github.com/smartcontractkit/smdkg/utils/codec"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
+	"github.com/smartcontractkit/smdkg/utils/crypto/math"
+	"github.com/smartcontractkit/smdkg/utils/crypto/vess"
+	"github.com/smartcontractkit/smdkg/utils/crypto/xof"
 )
 
 // Stateless DKG instance to be used with the DKG plugin. Abstracts all cryptographic operations required for the DKG

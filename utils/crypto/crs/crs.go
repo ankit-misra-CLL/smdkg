@@ -1,9 +1,9 @@
 package crs
 
 import (
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/math"
-	"github.com/smartcontractkit/smdkg/internal/crypto/xof"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
+	"github.com/smartcontractkit/smdkg/utils/crypto/math"
+	"github.com/smartcontractkit/smdkg/utils/crypto/xof"
 )
 
 // See https://www.rfc-editor.org/rfc/rfc9380.html#name-suites-for-nist-p-256

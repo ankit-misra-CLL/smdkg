@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/p256keyringshim"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
+	"github.com/smartcontractkit/smdkg/utils/crypto/p256keyringshim"
 	"github.com/smartcontractkit/smdkg/p256keyring"
 	"github.com/stretchr/testify/require"
 )

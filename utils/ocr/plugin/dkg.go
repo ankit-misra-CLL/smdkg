@@ -7,10 +7,10 @@ import (
 	"io"
 
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/codec"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkg"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/math"
+	"github.com/smartcontractkit/smdkg/utils/codec"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkg"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
+	"github.com/smartcontractkit/smdkg/utils/crypto/math"
 )
 
 // Reads the previous result package from the db if previousInstanceID is provided, otherwise returns nil.

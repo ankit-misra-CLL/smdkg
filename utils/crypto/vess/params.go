@@ -5,7 +5,7 @@ import (
 	stdmath "math"
 	"math/big"
 
-	"github.com/smartcontractkit/smdkg/internal/crypto/math"
+	"github.com/smartcontractkit/smdkg/utils/crypto/math"
 )
 
 type candidateParams struct {

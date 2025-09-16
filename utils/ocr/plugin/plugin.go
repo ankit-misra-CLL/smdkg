@@ -12,9 +12,9 @@ import (
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/ocr3types"
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/math"
-	"github.com/smartcontractkit/smdkg/internal/crypto/p256keyringshim"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
+	"github.com/smartcontractkit/smdkg/utils/crypto/math"
+	"github.com/smartcontractkit/smdkg/utils/crypto/p256keyringshim"
 )
 
 // This implements OCR 3.1 integration for the SanMarino DKG.

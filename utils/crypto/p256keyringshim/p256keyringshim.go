@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkgtypes"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
 )
 
 var _ dkgtypes.P256Keyring = &wrappedP256keyring{}

@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/codec"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkg"
+	"github.com/smartcontractkit/smdkg/utils/codec"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkg"
 )
 
 func (p *pluginStateDealing) MarshalTo(target codec.Target) {

@@ -7,8 +7,8 @@ import (
 	"io"
 
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/dkgtypes"
-	"github.com/smartcontractkit/smdkg/internal/crypto/math"
+	"github.com/smartcontractkit/smdkg/utils/crypto/dkgtypes"
+	"github.com/smartcontractkit/smdkg/utils/crypto/math"
 )
 
 const SecretKeyLength = 32 // scalar (mod P256 group order), 32 bytes, big-endian encoded integer

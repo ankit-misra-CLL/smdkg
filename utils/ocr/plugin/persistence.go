@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/ocr3_1types"
-	"github.com/smartcontractkit/smdkg/internal/ocr/plugin/kv"
+	"github.com/smartcontractkit/smdkg/utils/ocr/plugin/kv"
 )
 
 // Shim for easier reading and writing to protocol state to/from the key/value store.

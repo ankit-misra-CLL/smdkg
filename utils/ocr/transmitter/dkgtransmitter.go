@@ -9,7 +9,7 @@ import (
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
 
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/ocr/plugin"
+	"github.com/smartcontractkit/smdkg/utils/ocr/plugin"
 )
 
 var _ ocr3types.ContractTransmitter[struct{}] = &Transmitter{}

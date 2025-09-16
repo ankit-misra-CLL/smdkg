@@ -1,6 +1,6 @@
 package math
 
-import "github.com/smartcontractkit/smdkg/internal/codec"
+import "github.com/smartcontractkit/smdkg/utils/codec"
 
 type Curve interface {
 	// prevent outside packages from implementing this interface, (marshal/unmarshal would not work correctly)

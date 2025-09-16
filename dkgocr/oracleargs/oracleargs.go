@@ -8,9 +8,9 @@ import (
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/ocr3_1types"
 	"github.com/smartcontractkit/libocr/offchainreporting2plus/types"
 	"github.com/smartcontractkit/smdkg/dkgocr/dkgocrtypes"
-	"github.com/smartcontractkit/smdkg/internal/ocr/onchainkeyring"
-	"github.com/smartcontractkit/smdkg/internal/ocr/plugin"
-	"github.com/smartcontractkit/smdkg/internal/ocr/transmitter"
+	"github.com/smartcontractkit/smdkg/utils/ocr/onchainkeyring"
+	"github.com/smartcontractkit/smdkg/utils/ocr/plugin"
+	"github.com/smartcontractkit/smdkg/utils/ocr/transmitter"
 )
 
 func OCR3_1OracleArgsForSanMarinoDKG(
